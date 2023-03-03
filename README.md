@@ -8,9 +8,11 @@
         - Milk
         - Food CPI
     
-    - Indices being analyzed:
+    - Indices/Financial being analyzed:
         - DOW JONES (DJIA)
         - NASDAQ?
+        - USDA
+        - CME
 
 ## Raw Datasets & Applications:
 ### (Here is the dataset that was found, here is why it is revelant...)
@@ -30,14 +32,14 @@
 - Dow Jones DJIA (https://www.investing.com/indices/us-30-historical-data)
     - XXXXXXXX
 
-- NASDAQ (link)
+- NASDAQ API (https://blog.data.nasdaq.com/api-for-commodity-data)
     - XXXXXXXX
 
-## General Data Procedure/Notes
-- Analyze data monthly from 1990 to present day
-- Import dataset to pandas to create dataframe
-- Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
+- USDA.gov API (https://fdc.nal.usda.gov/api-guide.html)
+    - XXXXXXXX
 
+- CME Datamine API (https://www.cmegroup.com/market-data/datamine-api.html)
+    - XXXXXXXX
 
 
 ## Process:
@@ -46,6 +48,13 @@
     3. Use Pandas for ETL on raw data, and then save to edited data folder.
     4. Make ERD for SQL/Postgres table create (primary keys, etc…) 
     5. Make postgres database and add edited dataset to postgres to create tables
+
+## General Data Procedure/Notes
+- Analyze data monthly from 1990 to present day
+- Import dataset to pandas to create dataframe
+- Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
+- Create ERD diagram identifying primary and poreign keys (https://dbdiagram.io/d)
+- When dataframe is cleaned and ERD is created, send message to team for integration into postgres database.
 
 ## Roles:
 - Git Manager: Chumpon
