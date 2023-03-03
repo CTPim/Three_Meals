@@ -37,6 +37,8 @@
 - Analyze data monthly from 1990 to present day
 - Import dataset to pandas to create dataframe
 - Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
+- Create ERD diagram identifying primary and poreign keys (https://dbdiagram.io/d)
+- When dataframe is cleaned and ERD is created, send message to team for integration into postgres database.
 
 
 
