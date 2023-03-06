@@ -23,11 +23,11 @@
 - Average beef price (https://fred.stlouisfed.org/series/APU0000703112)
     - XXXXXXX
 
-- Average milk price (https://fred.stlouisfed.org/series/APU0000702212)
-    - XXXXXXX
+- Average Bread (Wheat) price (https://fred.stlouisfed.org/series/APU0000702212)
+    - Data showing the average prices of bread from mid 1960's to present day.  Price of bread per pound (lb) is a variable used in calculating the food CPI.  CPI's are good indicators of inflation.
 
 - CPI - food (https://fred.stlouisfed.org/series/CUSR0000SAF112)
-    - XXXXXXX
+    - CPI's are the overall change in consumer prices based on a representative basket of goods and services over time.  For the project analysis, the Food CPI will be reviewed.  The data provides index values (based in 1982-84=100) from the mid 1960's to present day. CPI's are good indicators of inflation.
 
 - Dow Jones DJIA (https://www.investing.com/indices/us-30-historical-data)
     - XXXXXXXX
@@ -41,6 +41,8 @@
 - CME Datamine API (https://www.cmegroup.com/market-data/datamine-api.html)
     - XXXXXXXX
 
+## Link to ERD diagrams
+-DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
 
 ## Process:
     1. Find raw dataset
