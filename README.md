@@ -42,7 +42,8 @@
     - XXXXXXXX
 
 ## Link to ERD diagrams
--DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
+- DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
+- 
 
 ## Process:
     1. Find raw dataset
@@ -63,6 +64,14 @@
 - Postgres Manager: Maxine
 - ETL/Analysts: By team members for their respective datasets
 - Predictive Model Manager: TBD
+- Tableau: Maxine
 
+## Project Status for 3/9 Deliverable (Written of 3/7):
+-  Finish dataset decriptions.
+-  Database with tables is in the schema in the edited data folder.
+    ![Database_schema.png](put link here)
+-  Questions and overview are above
+
+## Project Status for 3/16 Deliverable (Written of 3/7):
 
 
