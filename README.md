@@ -18,7 +18,7 @@
 ### (Here is the dataset that was found, here is why it is revelant...)
 
 - Average milk price (https://fred.stlouisfed.org/series/APU0000709112)
-    - XXXXXXX
+    - Data showing the average prices of milk from July 1995 to January 2023.  Price of milk per gallon (lb) is a variable used in calculating the food CPI.  CPI's are good indicators of inflation.
 
 - Average beef price (https://fred.stlouisfed.org/series/APU0000703112)
     - XXXXXXX
