@@ -55,6 +55,7 @@
 ## General Data Procedure/Notes
 - Analyze data monthly from 1990 to present day
 - Import dataset to pandas to create dataframe
+- Change names of columns (date column to be: "date_time", price column to be: "Price (unit of measure)", Index, etc...)
 - Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
 - Create ERD diagram identifying primary and poreign keys (https://dbdiagram.io/d)
 - When dataframe is cleaned and ERD is created, send message to team for integration into postgres database.
@@ -63,8 +64,10 @@
 - Git Manager: Chumpon
 - Postgres Manager: Maxine
 - ETL/Analysts: By team members for their respective datasets
-- Predictive Model Manager: TBD
+- Predictive Model Manager: Russ & Jennifer
 - Tableau: Maxine
+- README: Jack
+
 
 ## Project Status for 3/9 Deliverable (Written of 3/7):
 -  Finish dataset decriptions.
@@ -72,6 +75,25 @@
     ![Database_schema.png](put link here)
 -  Questions and overview are above
 
-## Project Status for 3/16 Deliverable (Written of 3/7):
+## Project Status/Goals for 3/16 Deliverable (Written of 3/7):
+- Nobel prize winner roughly around time berlin wall came down tracking price of milk against economic performance - who is this?
+- All datasets cleaned (3/14)
+- Preliminary predictive model (3/16)
+    - DJIA has column for % change.  Let's try to use a method of classification (categorical or logistic regression - unsupervised model) to group data by category for analysis.
+- Begin working on Tableau visualizations
+
+### Deliverable Breakdown (3/16)
+- Selected topic and reasoning for selection:
+    -	Build out paragraph on overview, questions, programming languages - Jack
+- Description of the data source 
+    -	To be completed for Thursday 3/8
+- Questions the group originally aimed to answer with the data 
+    -	In README
+- Description of the data exploration phase of the project 
+    -	Add a exploration section to README:  give where we looked for the data, what we were looking for correlation – Ask Dave/TA on Thursday (3/9)
+- Description of the analysis phase of the project 
+    -	Add analysis/process section to the README.  Dive deeper into the analysis of the specific datasets.
+- Technologies, languages, tools, and algorithms used throughout the project
+    -	Add list of tech, methods, tools, etc… (pandas, jupyter, SQL, Tableau, Postgres, python)
 
 
