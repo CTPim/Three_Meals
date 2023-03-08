@@ -72,7 +72,7 @@
 ## Project Status for 3/9 Deliverable (Written of 3/7):
 -  Finish dataset decriptions.
 -  Database with tables is in the schema in the edited data folder.
-    ![Database_schema.png](put link here)
+    ![Database_schema.png](put link here to schema and photo)
 -  Questions and overview are above
 
 ## Project Status/Goals for 3/16 Deliverable (Written of 3/7):
