@@ -21,7 +21,7 @@
     - Data showing the average prices of milk from July 1995 to January 2023.  Price of milk per gallon (lb) is a variable used in calculating the food CPI.  CPI's are good indicators of inflation.
 
 - Average beef price (https://fred.stlouisfed.org/series/APU0000703112)
-    - XXXXXXX
+    - Data showing the monthly average price of beef from 1990 to 2023. Price is listed in dollars per pound. As a food staple, the price of beef may have an impact on finances for business and individuals.  
 
 - Average Bread (Wheat) price (https://fred.stlouisfed.org/series/APU0000702212)
     - Data showing the average prices of bread from mid 1960's to present day.  Price of bread per pound (lb) is a variable used in calculating the food CPI.  CPI's are good indicators of inflation.
@@ -30,7 +30,7 @@
     - CPI's are the overall change in consumer prices based on a representative basket of goods and services over time.  For the project analysis, the Food CPI will be reviewed.  The data provides index values (based in 1982-84=100) from the mid 1960's to present day. CPI's are good indicators of inflation.
 
 - Dow Jones DJIA (https://www.investing.com/indices/us-30-historical-data)
-    - XXXXXXXX
+    - The Dow Jones Industrial Average is a stock market index that tracks 30 large publicly owned US companies. It is often used as an indicator of the overall health of the US economy and stock market. 
 
 - NASDAQ API (https://blog.data.nasdaq.com/api-for-commodity-data)
     - XXXXXXXX
