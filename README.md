@@ -14,6 +14,11 @@
         - USDA
         - CME
 
+## Questions:
+- Is there a correlation between food prices/food CPI and large scale stock market index behavior?
+- Can a prediction of market behavior be made based on the past trends of food prices?
+- Do different goods have a larger impact on certain markets? 
+
 ## Raw Datasets & Applications:
 ### (Here is the dataset that was found, here is why it is revelant...)
 
