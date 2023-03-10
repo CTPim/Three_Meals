@@ -44,7 +44,7 @@
     - THe USDA FoodData Central API has a Food Seach function which allows us to view information about different foods.
 
 - CME Datamine API (https://www.cmegroup.com/market-data/datamine-api.html)
-    - Data dervied from the CME regarding different commodities on the market.
+    - Data from the CME regarding different commodities on the market and their historical prices.
 
 ## Link to ERD diagrams
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
