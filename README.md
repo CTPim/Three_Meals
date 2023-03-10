@@ -78,6 +78,7 @@
 -  Finish dataset decriptions.
 -  Database with tables is in the schema in the edited data folder.
     (https://github.com/CTPim/Three_Meals/blob/main/Edited%20Data/Schema.sql)
+    ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Notes/Schema.png)
 -  Questions and overview are above
 
 ## Project Status/Goals for 3/16 Deliverable (Written of 3/7):
