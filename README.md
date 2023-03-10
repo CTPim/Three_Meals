@@ -38,13 +38,13 @@
     - The Dow Jones Industrial Average is a stock market index that tracks 30 large publicly owned US companies. It is often used as an indicator of the overall health of the US economy and stock market. 
 
 - NASDAQ API (https://blog.data.nasdaq.com/api-for-commodity-data)
-    - The Nasdaq DataLink API displays commodity data. We will using it for grain prices and farm data.
+    - The Nasdaq Data Link API displays commodity data. We will using it for grain prices and farm data.
 
 - USDA.gov API (https://fdc.nal.usda.gov/api-guide.html)
-    - XXXXXXXX
+    - THe USDA FoodData Central API has a Food Seach function which allows us to view information about different foods.
 
 - CME Datamine API (https://www.cmegroup.com/market-data/datamine-api.html)
-    - XXXXXXXX
+    - Data dervied from the CME regarding different commodities on the market.
 
 ## Link to ERD diagrams
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
