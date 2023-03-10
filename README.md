@@ -57,7 +57,7 @@
     ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison.png)
 
 -Beef_USDA_Price Table:
-    ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png.png)
+    ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
 
 -Database Schema:
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Schema.png)
