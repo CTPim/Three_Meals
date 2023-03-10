@@ -49,7 +49,7 @@
 
 ## Link to ERD diagrams
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
-- 
+
 
 ## Process:
     1. Find raw dataset
@@ -77,7 +77,7 @@
 ## Project Status/Tasks
 
 ### Project Status for 3/9 Deliverable (Written of 3/7):
--  Finish dataset decriptions.
+-  Finished dataset decriptions are above.
 -  Database with tables is in the schema in the edited data folder.
     (https://github.com/CTPim/Three_Meals/blob/main/Edited%20Data/Schema.sql)
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Notes/Schema.png)
