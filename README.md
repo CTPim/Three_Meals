@@ -46,6 +46,7 @@
 - CME Datamine API (https://www.cmegroup.com/market-data/datamine-api.html)
     - Data from the CME regarding different commodities on the market and their historical prices.
 
+- The Consumer Price Index(https://api.dol.gov/V1/Statistics/CPI) The Consumer Price Index measures US consumer spending on Food.
 
 ## Link to ERD diagrams
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
