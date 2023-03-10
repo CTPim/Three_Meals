@@ -62,6 +62,7 @@
 - Analyze data monthly from 1990 to present day
 - Import dataset to pandas to create dataframe
 - Change names of columns (date column to be: "date_time", price column to be: "Price (unit of measure)", Index, etc...)
+- Determine change in price percentage by using Pandas function pct_change()
 - Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
 - Create ERD diagram identifying primary and foreign keys (https://dbdiagram.io/d)
 - When dataframe is cleaned and ERD is created, send message to team for integration into postgres database.
