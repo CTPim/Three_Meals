@@ -1,6 +1,7 @@
-# Three Meals - 
+# Three Meals - An Analysis of Food Prices Vs. Stock Market Behavior
 
 ## Overview:
+
 - General idea: Find a relation between food prices and large scale stock index prices
     - Foods being analyzed:
         - Wheat/Bread
@@ -73,22 +74,23 @@
 - Tableau: Maxine
 - README: Jack
 
+## Project Status/Tasks
 
-## Project Status for 3/9 Deliverable (Written of 3/7):
+### Project Status for 3/9 Deliverable (Written of 3/7):
 -  Finish dataset decriptions.
 -  Database with tables is in the schema in the edited data folder.
     (https://github.com/CTPim/Three_Meals/blob/main/Edited%20Data/Schema.sql)
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Notes/Schema.png)
 -  Questions and overview are above
 
-## Project Status/Goals for 3/16 Deliverable (Written of 3/7):
+### Project Status/Goals for 3/16 Deliverable (Written of 3/7):
 - Nobel prize winner roughly around time berlin wall came down tracking price of milk against economic performance - who is this?
 - All datasets cleaned (3/14)
 - Preliminary predictive model (3/16)
     - DJIA has column for % change.  Let's try to use a method of classification (categorical or logistic regression - unsupervised model) to group data by category for analysis.
 - Begin working on Tableau visualizations
 
-### Deliverable Breakdown (3/16)
+#### Deliverable Breakdown (3/16)
 - Selected topic and reasoning for selection:
     -	Build out paragraph on overview, questions, programming languages - Jack
 - Description of the data source 
@@ -96,7 +98,7 @@
 - Questions the group originally aimed to answer with the data 
     -	In README
 - Description of the data exploration phase of the project 
-    -	Add a exploration section to README:  give where we looked for the data, what we were looking for correlation – Ask Dave/TA on Thursday (3/9)
+    -	Add a exploration section to README:  Give where we looked for the data, what we were looking for correlation – Ask Dave/TA on Thursday (3/9)
 - Description of the analysis phase of the project 
     -	Add analysis/process section to the README.  Dive deeper into the analysis of the specific datasets.
 - Technologies, languages, tools, and algorithms used throughout the project
