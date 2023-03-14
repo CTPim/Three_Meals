@@ -39,7 +39,7 @@
     - The Dow Jones Industrial Average is a stock market index that tracks 30 large publicly owned US companies. It is often used as an indicator of the overall health of the US economy and stock market. 
 
 - NASDAQ API (https://blog.data.nasdaq.com/api-for-commodity-data)
-    - The Nasdaq Data Link API displays commodity data. We will using it for grain prices and farm data.
+    - The Nasdaq Data Link API displays commodity data. We will be using it for grain prices and farm data.
 
 - USDA.gov API (https://fdc.nal.usda.gov/api-guide.html)
     - THe USDA FoodData Central API has a Food Seach function which allows us to view information about different foods.
