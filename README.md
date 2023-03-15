@@ -53,14 +53,17 @@
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
 
 ## Analysis/Results
--Beef price vs DJIA Price Plot:
+- Beef price vs DJIA Price Plot:
     ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison.png)
 
--Beef_USDA_Price Table:
+- Beef_USDA_Price Table:
     ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
 
--Database Schema:
+- Database Schema:
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Schema.png)
+ 
+- Machine Learning Model: Confusion Matrix:
+    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
 
 ## Process:
     1. Find raw dataset
