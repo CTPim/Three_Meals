@@ -87,7 +87,7 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
 - CPI Percentage Change per Year Graph and Correlation: 
     !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
     
-    !["CPI - PCT Change Correlation.png"]([https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20vs.%20Food%20pct%20change.png](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20PCT%20Change%20Correlation.png))
+    !["CPI - PCT Change Correlation.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20PCT%20Change%20Correlation.png)
     
     - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
 
