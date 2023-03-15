@@ -54,7 +54,7 @@
 
 ## Analysis/Results
 - Beef price vs DJIA Price Plot:
-    ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison.png)
+    ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison1.png)
 
 - Beef_USDA_Price Table:
     ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
