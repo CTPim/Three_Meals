@@ -68,6 +68,10 @@
 - Machine Learning Model: Classification Report:
     ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ClassificationReport.png)
 
+- CPI Percentage Change per Year: 
+    !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
+    The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization, there is little correlation between soley the food CPI and the CPI of all goods.
+    
 ## Process:
     1. Find raw dataset
     2. Upload to raw data folder on git
