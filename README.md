@@ -77,10 +77,17 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     
     - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
 
+- CPI of All Items Vs CPI of Food: 
+    !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
+    
+    !["CPI - All Items & Food Correlation.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20%26%20Food%20Correlation.png)
+    
+    - The CPI for food is a portion of the data used to calculate the CPI for all goods.  This graph compares the CPI of food against the CPI of all goods from 1990 to present day to try to show a correlation.  As the CPI for food is part of the calculation for the CPI of all goods, a correlation is expected (as shown on the graph).  the correlation is further proven using Pandas .corr() function to get a value of .985.
+
 - CPI Percentage Change per Year Graph and Correlation: 
     !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
     
-    !["CPI - PCT Change Correlation.png"]()
+    !["CPI - PCT Change Correlation.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20vs.%20Food%20pct%20change.png)
     
     - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
 
