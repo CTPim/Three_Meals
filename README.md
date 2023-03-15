@@ -15,7 +15,7 @@ On the financial side, our team used the DJIA dataset as our test variable.  We 
 
 ## Technology, Languages, & Tools:
 - Python:
-    -Libraries: Pandas, NumPy, MatPlotLib.Pylot
+    -Libraries: Pandas, NumPy, MatPlotLib.Pylot, sklearn
     -Coding interface: Jupyter Notebook
 - SQL:
     -Coding interface: PostGres
