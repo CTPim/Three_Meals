@@ -2,23 +2,28 @@
 
 ## Overview:
 
-- General idea: Find a relation between food prices and large scale stock index prices
-    - Foods being analyzed:
-        - Wheat/Bread
-        - Beef
-        - Milk
-        - Food CPI
-    
-    - Indices/Financial being analyzed:
-        - DOW JONES (DJIA)
-        - NASDAQ?
-        - USDA
-        - CME
+As a team, we set our sights on trying to analyze whether there is a correlation between the prices of everyday food items and the behaviour of the USA's largest stock market index, the Dow Jones (DJIA), then try to predict if the DJIA will see an increase or decrease through the use of a machine learning predictive model.  The thought process being: a rise in food prices is typical of an inflationary period in the US economy, and inflation usually coincides with investors being less willing to invest in the markets as there is higher risk.
 
-## Questions:
+Our team took a high and low level approach when choosing what datasets to include within the analysis on the food market end.  We found it helpful to start by looking at and collecting datasets of the average prices of bread, milk, and beef as they are typically staples of the average american diet.  From there, we decided to view the food market from a wider lense, and looked at the consumer price index (CPI) for food of all urban US consumers. The individual prices we took are some of the pieces used to calculate the food CPI, the food CPI is a part of the overall CPI for all US goods, and the CPI for all US goods is a dataset usually used as indicator/predictor of inflation. 
+
+On the financial side, our team used the DJIA dataset as our test variable.  We used Dow Jones data starting from 1990 to present day to serve as a block to base our correlations upon.  It is also the data that we used to try predict if the DJIA will see an increase or decrease through the use of our machine learning model.
+
+## Questions we are trying to answer:
 - Is there a correlation between food prices/food CPI and large scale stock market index behavior?
 - Can a prediction of market behavior be made based on the past trends of food prices?
 - Do different goods have a larger impact on certain markets? 
+
+## Technology, Languages, & Tools:
+- Python:
+    -Libraries: Pandas, NumPy, MatPlotLib.Pylot
+    -Coding interface: Jupyter Notebook
+- SQL:
+    -Coding interface: PostGres
+-Tableau:
+    -Interactive visualizations, Presentation slides
+-Google Docs/Slides:
+    -Platform for team coordination
+    -Presentation slides
 
 ## Raw Datasets & Applications:
 ### (Here is the dataset that was found, here is why it is revelant...)
@@ -53,6 +58,8 @@
 - DJIA relation: https://dbdiagram.io/d/64057920296d97641d859fd4
 
 ## Analysis/Results
+Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry out our analysis and ETL of the raw datasets.  To standardize the data so that it can be effectively cleaned, merged, and analyzed we agreed to only look at data from 1990 to present day, and rename columns to common names and add unit values ("DATE" to "date_time", USD/LB, etc...), and make sure that all data types were changed from object to float/int/etc...  Once the data was cleaned, it would be uploaded to our PostGres database, and visualizations were created.  Some of our latest visualizations are shown below.
+
 - Beef price vs DJIA Price Plot:
     ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison1.png)
 
@@ -70,10 +77,13 @@
     
     - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
 
-- CPI Percentage Change per Year: 
+- CPI Percentage Change per Year Graph and Correlation: 
     !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
     
-    - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the percent change from 1990 to present       day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization, there is little correlation between soley the food CPI         and the CPI of all goods.
+    !["CPI - PCT Change Correlation.png"]()
+    
+    - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
+
     
 ## Process:
     1. Find raw dataset
@@ -86,12 +96,16 @@
 - Analyze data monthly from 1990 to present day
 - Import dataset to pandas to create dataframe
 - Change names of columns (date column to be: "date_time", price column to be: "Price (unit of measure)", Index, etc...)
-- Create a new column called for "Percent Chaange" and determine the change in price percentage of the targeted food by using Pandas function pct_change()
+- Create a new column called for "Percent Change" and determine the change in price percentage of the targeted food by using Pandas function pct_change()
 - Confirm that all data types are changed to datetime/float/int/etc...  (eliminate strings that are not necessary)
 - Create ERD diagram identifying primary and foreign keys (https://dbdiagram.io/d)
 - When dataframe is cleaned and ERD is created, send message to team for integration into postgres database.
 
-## Roles:
+
+
+## Team Notes:
+
+### Roles:
 - Git Manager: Chumpon
 - Postgres Manager: Maxine
 - ETL/Analysts: By team members for their respective datasets
@@ -99,30 +113,30 @@
 - Tableau: Maxine
 - README: Jack
 
-## Presentation Outline:
+### Presentation Outline:
 https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/edit?usp=sharing
 
-## Project Status/Tasks
+### Project Status/Tasks
 
-### Project Status for 3/9 Deliverable (Written of 3/7):
+#### Project Status for 3/9 Deliverable (Written of 3/7):
 -  Finished dataset decriptions are above.
 -  Database with tables is in the schema in the edited data folder.
     (https://github.com/CTPim/Three_Meals/blob/main/Edited%20Data/Schema.sql)
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Notes/Schema.png)
 -  Questions and overview are above
 
-### Project Status/Goals for 3/16 Deliverable (Written of 3/7):
+#### Project Status/Goals for 3/16 Deliverable (Written of 3/7):
 - Nobel prize winner roughly around time berlin wall came down tracking price of milk against economic performance - who is this?
 - All datasets cleaned (3/14)
 - Preliminary predictive model (3/16)
     - DJIA has column for % change.  Let's try to use a method of classification (categorical or logistic regression - unsupervised model) to group data by category for analysis.
 - Begin working on Tableau visualizations
 
-#### Deliverable Breakdown (3/16)
+##### Deliverable Breakdown (3/16)
 - Selected topic and reasoning for selection:
-    -	Build out paragraph on overview, questions, programming languages - Jack
+    -	Good on this
 - Description of the data source 
-    -	To be completed for Thursday 3/8
+    -	Good on this
 - Questions the group originally aimed to answer with the data 
     -	In README
 - Description of the data exploration phase of the project 
@@ -130,9 +144,9 @@ https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/
 - Description of the analysis phase of the project 
     -	Add analysis/process section to the README.  Dive deeper into the analysis of the specific datasets.
 - Technologies, languages, tools, and algorithms used throughout the project
-    -	Add list of tech, methods, tools, etc… (pandas, jupyter, SQL, Tableau, Postgres, python)
+    -	Good on this
 
-#### Deliverable Breakdown (3/16, written on 3/14)
+##### Deliverable Breakdown (3/16, written on 3/14)
 - A detailed README with project status, images, descriptions, and results 
     -	Add photos of the correlation graphs.  Should be good for 3/16
 - At least 8 total commits per group member 
@@ -143,7 +157,7 @@ https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/
     -	Add any other cleaned data to the database.  Should be good.
 
 - Selected topic and reasoning for selection 
-    -	Good on this. Build on it - Jack
+    -	Good on this.
 - Description of the data source 
     -	See Data section
 - Questions the group originally aimed to answer with the data 
@@ -153,9 +167,9 @@ https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/
 - Description of the analysis phase of the project 
     -	See Analysis/process
 - Technologies, languages, tools, and algorithms used throughout the project
-    -	Add tech section
+    -	Good on this
 
-Additional To Do’s:
+#### Additional To Do’s:
 -	Add explanations to the results section of the readme.
     -	If anyone needs commits, do this^^
 -	Jack – add yearly percentage change to ML model
