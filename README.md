@@ -122,4 +122,34 @@
 - Technologies, languages, tools, and algorithms used throughout the project
     -	Add list of tech, methods, tools, etc… (pandas, jupyter, SQL, Tableau, Postgres, python)
 
+#### Deliverable Breakdown (3/16, written on 3/14)
+- A detailed README with project status, images, descriptions, and results 
+    -	Add photos of the correlation graphs.  Should be good for 3/16
+- At least 8 total commits per group member 
+    -	Good on this
+- Machine learning model including confusion matrix and accuracy score 
+    -	Good on this
+- Database that stores data for the project with at least two tables or collections
+    -	Add any other cleaned data to the database.  Should be good.
+
+- Selected topic and reasoning for selection 
+    -	Good on this. Build on it - Jack
+- Description of the data source 
+    -	See Data section
+- Questions the group originally aimed to answer with the data 
+    -	See questions section
+- Description of the data exploration phase of the project 
+    -	Add charts and blurb to results section README.
+- Description of the analysis phase of the project 
+    -	See Analysis/process
+- Technologies, languages, tools, and algorithms used throughout the project
+    -	Add tech section
+
+Additional To Do’s:
+-	Add explanations to the results section of the readme.
+    -	If anyone needs commits, do this^^
+-	Jack – add yearly percentage change to ML model
+    -	Add percent change columns to food prices.
+-	Have a couple attempts on optimization of the ML model
+-	Start creating tableau dashboards – Can you collaborate?
 
