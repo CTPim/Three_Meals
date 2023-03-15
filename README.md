@@ -64,6 +64,9 @@
  
 - Machine Learning Model: Confusion Matrix:
     ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
+    
+- Machine Learning Model: Classification Report:
+    ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ClassificationReport.png)
 
 ## Process:
     1. Find raw dataset
