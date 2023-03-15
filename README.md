@@ -99,6 +99,9 @@
 - Tableau: Maxine
 - README: Jack
 
+## Presentaion Outline:
+https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/edit?usp=sharing
+
 ## Project Status/Tasks
 
 ### Project Status for 3/9 Deliverable (Written of 3/7):
