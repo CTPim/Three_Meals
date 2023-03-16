@@ -191,3 +191,13 @@ https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/
 -	Have a couple attempts on optimization of the ML model
 -	Start creating tableau dashboards – Can you collaborate?
 
+#### Graph To Do's:
+- Multi-line graph of food prices
+- Multi line graph of food prices vs dow jones data w/ (2) axis, similar to what on the readme 
+- Box & whisker percent changes of food & CPI
+- Multi line graph of Food CPI vs All Goods CPI (inflation), similar to what on the readme 
+- Multi-line DJIA vs CPI – All Goods pct change
+
+##### Would be cool to have:
+- K-means cluster visualization
+
