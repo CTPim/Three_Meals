@@ -77,7 +77,7 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     - The CPI for food is a portion of the data used to calculate the CPI for all goods.  This graph compares the CPI of food against the CPI of all goods from 1990 to present day to try to show a correlation.  As the CPI for food is part of the calculation for the CPI of all goods, a correlation is expected (as shown on the graph).  the correlation is further proven using Pandas .corr() function to get a value of .985.
 
 - CPI Percentage Change per Year Graph and Correlation: 
-    ![CPI All Items vs. Food.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
+    ![CPI - All Items vs. Food pct change.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food%20pct%20change.png)
     
     ![CPI - PCT Change Correlation.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20PCT%20Change%20Correlation.png)
     
