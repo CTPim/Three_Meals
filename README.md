@@ -68,14 +68,6 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
 
 - Database Schema:
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Schema.png)
- 
-- Machine Learning Model: Confusion Matrix:
-    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
-    
-- Machine Learning Model: Classification Report:
-    ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ClassificationReport.png)
-    
-    - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
 
 - CPI of All Items Vs CPI of Food: 
     !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
@@ -91,6 +83,21 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     
     - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
 
+- Machine Learning Model 1: Confusion Matrix:
+    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
+    
+- Machine Learning Model 1: Classification Report:
+    ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ClassificationReport.png)
+    
+    - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
+    
+- Machine Learning Model 2: Confusion Matrix:
+    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
+    
+- Machine Learning Model 2: Classification Report:
+    ![ML_2_Same_DateClassification Report.png](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/ML_2_Same_DateClassification%20Report.png)
+    
+    - The 2nd iteration of the predicitve model added more data (added CPI data for all goods, monthly and yearly percent changes for both the food CPI and the CPI for all goods). According to our classification report, the 2nd iteration of the logistic regression model performed worse in almost all fields than the 1st iteration; the precision dropped to -0.59 and the recall/sensitivity remained the same at 0.88. The model is evem less accurate at predicting a negative change than the 1st iteration, with the precision being 0.33 and the recall/sensitivity  being 0.09. The F1 Scores are .71 and .14, respectively.
     
 ## Process:
     1. Find raw dataset
