@@ -19,10 +19,9 @@ On the financial side, our team used the DJIA dataset as our test variable.  We 
     -Coding interface: Jupyter Notebook
 - SQL:
     -Coding interface: PostGres
-    
--Tableau:
+- Tableau:
     -Interactive visualizations, Presentation slides
--Google Docs/Slides:
+- Google Docs/Slides:
     -Platform for team coordination
     -Presentation slides
 
