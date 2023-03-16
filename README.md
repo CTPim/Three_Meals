@@ -70,16 +70,16 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     ![Schema.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Schema.png)
 
 - CPI of All Items Vs CPI of Food: 
-    !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
+    ![CPI - All Items vs. Food.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
     
-    !["CPI - All Items & Food Correlation.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20All%20Items%20%26%20Food%20Correlation.png)
+    ![CPI - All Items & Food Correlation.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20%26%20Food%20Correlation.png)
     
     - The CPI for food is a portion of the data used to calculate the CPI for all goods.  This graph compares the CPI of food against the CPI of all goods from 1990 to present day to try to show a correlation.  As the CPI for food is part of the calculation for the CPI of all goods, a correlation is expected (as shown on the graph).  the correlation is further proven using Pandas .corr() function to get a value of .985.
 
 - CPI Percentage Change per Year Graph and Correlation: 
-    !["CPI All Items vs. Food.png"](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
+    ![CPI All Items vs. Food.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20All%20Items%20vs.%20Food.png)
     
-    !["CPI - PCT Change Correlation.png"](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/CPI%20-%20PCT%20Change%20Correlation.png)
+    ![CPI - PCT Change Correlation.png](https://github.com/CTPim/Three_Meals/blob/main/Images/CPI%20-%20PCT%20Change%20Correlation.png)
     
     - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
 
@@ -95,7 +95,7 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
     
 - Machine Learning Model 2: Classification Report:
-    ![ML_2_Same_DateClassification Report.png](https://github.com/CTPim/Three_Meals/blob/CPi-Comparison-Code-%26-Charts/Images/ML_2_Same_DateClassification%20Report.png)
+    ![ML_2_Same_DateClassification Report.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML_2_Same_DateClassification%20Report.png)
     
     - The 2nd iteration of the predicitve model added more data (added CPI data for all goods, monthly and yearly percent changes for both the food CPI and the CPI for all goods). According to our classification report, the 2nd iteration of the logistic regression model performed worse in almost all fields than the 1st iteration; the precision dropped to -0.59 and the recall/sensitivity remained the same at 0.88. The model is evem less accurate at predicting a negative change than the 1st iteration, with the precision being 0.33 and the recall/sensitivity  being 0.09. The F1 Scores are .71 and .14, respectively.
     
