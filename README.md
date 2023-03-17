@@ -84,10 +84,10 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     - The percent change of the CPI index over the course of a year is used to be an indicator of inflation.  This graph shows the yearly percent change from 1990 to present day of the food CPI and the CPI of all goods to try to show a correlation.  Based on this visualization and the 0.45 correlation value, there is little correlation between annual percentage change of the food CPI and the CPI of all goods.
 
 - Machine Learning Model 1: Confusion Matrix:
-    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
+    ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_v2_ConfusionMatrix.png)
     
 - Machine Learning Model 1: Classification Report:
-    ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ClassificationReport.png)
+    ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_v2_ClassificationReport.png)
     
     - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
     
