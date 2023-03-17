@@ -64,12 +64,12 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
     ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison1.png)
    
    Beef vs DJIA:
-There are observed orrelations in 7-1-2000 displaying an upward movement.
+There are observed correlations on 7-1-2000 displaying an upward movement.
 On 1-1-2003 both variables trended downward.
 Between 7-1-2005 and 1-1-2008 they moved up and down almost in unison.
 From approx 1-1-2008 to 3-1-2013 they have trended in the same direction.
 There was an inverse correlation between these two veriables on approximately 6-1-2015. I will research to see what events might have caused this.
-
+For the most part, the movement of the Dow and Beef prices correlate with each other.
 
 
 - Beef_USDA_Price Table:
