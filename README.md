@@ -62,6 +62,13 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
 
 - Beef price vs DJIA Price Plot:
     ![beef_djia_comparison.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_djia_comparison1.png)
+    Beef vs DJIA:
+Correlations in 7-1-2000- upward movement.
+1-1-2003- both trended downward
+Between 7-1-2005 and 1-1-2008 they moved up and down almost in unison.
+From approx 1-1-2008 to 3-1-2013 they have trended in the same direction.
+There was an inverse correlation between these two veriables on approximately 6-1-2015
+
 
 - Beef_USDA_Price Table:
     ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
