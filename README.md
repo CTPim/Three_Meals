@@ -89,7 +89,7 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
 - Machine Learning Model 1: Classification Report:
     ![ML1_ClassificationReport.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_v2_ClassificationReport.png)
     
-    - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is -0.69 and the recall/sensitivity is 0.88. The model is much less accurate at predicting a negative change, with the precision being 0.36 and the recall/sensitivity  being 0.15. The F1 Scores are .78 and .22, respectively.
+    - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is 0.65 and the recall/sensitivity is 0.98. The model is much less accurate at predicting a negative change, with the precision being 0.80 and the recall/sensitivity  being 0.13. The F1 Scores are .78 and .22, respectively.
     
 - Machine Learning Model 2: Confusion Matrix:
     ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
