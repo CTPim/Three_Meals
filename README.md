@@ -100,14 +100,25 @@ For the most part, the movement of the Dow and Beef prices correlate with each o
     
     - According to our classification report, the logistic regression model seems to be more accurate at predicting a positive change in the Dow Jones; the precision is 0.65 and the recall/sensitivity is 0.98. The model is much less accurate at predicting a negative change, with the precision being 0.80 and the recall/sensitivity  being 0.13. The F1 Scores are .78 and .22, respectively.
     
-- Machine Learning Model 2: Confusion Matrix:
+- Machine Learning Model 2 Iteration 1: Confusion Matrix:
     ![ML1_ConfusionMatrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML1_ConfusionMatrix.png)
     
-- Machine Learning Model 2: Classification Report:
+- Machine Learning Model 2 Iteration 1: Classification Report:
     ![ML_2_Same_DateClassification Report.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML_2_Same_DateClassification%20Report.png)
     
-    - The 2nd iteration of the predicitve model added more data (added CPI data for all goods, monthly and yearly percent changes for both the food CPI and the CPI for all goods). According to our classification report, the 2nd iteration of the logistic regression model performed worse in almost all fields than the 1st iteration; the precision dropped to -0.59 and the recall/sensitivity remained the same at 0.88. The model is evem less accurate at predicting a negative change than the 1st iteration, with the precision being 0.33 and the recall/sensitivity  being 0.09. The F1 Scores are .71 and .14, respectively.
+    - The 1st iteration of the 2nd predicitve model added more data (added CPI data for all goods, monthly and yearly percent changes for both the food CPI and the CPI for all goods). According to our classification report, this iteration of the logistic regression model performed worse in almost all fields than the 1st model; the precision dropped to -0.59 and the recall/sensitivity remained the same at 0.88. The model is even less accurate at predicting a negative change than the 1st iteration, with the precision being 0.33 and the recall/sensitivity  being 0.09. The F1 Scores are 0.71 and 0.14, respectively.
     
+- Machine Learning Model 2 Iteration 2: Confusion Matrix & Classification Report:
+    ![ML_2_Same_DateClassification Report & Matrix.png](https://github.com/CTPim/Three_Meals/blob/main/Images/ML_2_Same_DateClassification%20Report%20%26%20Matrix.png)
+    
+    - The 2nd iteration of the 2nd predictive model added more data (removed extraneous data (All Goods - CPi, and added monthly percentage change values to all of the food prices). According to our classification report, the 2nd iteration of the logistic regression model performed than the 1st iteration; the precision jumped to 0.72 and the recall/sensitivity slightly decreased to 0.85. The model is slightly more accurate at predicting a negative change than the 1st iteration, with the precision being 0.36 and the recall/sensitivity  being 0.21. The F1 Scores are 0.78 and 0.26, respectively.
+
+- Price Correlations:
+    ![Price_Corr.png](https://github.com/CTPim/Three_Meals/blob/Price-Correlation-Branch/Images/Price_Corr.png)
+
+- Percentage Correlations:
+    ![Percent_Corr.png](https://github.com/CTPim/Three_Meals/blob/Price-Correlation-Branch/Images/Percent_Corr.png)
+
 ## Process:
     1. Find raw dataset
     2. Upload to raw data folder on git
