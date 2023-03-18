@@ -113,10 +113,10 @@ For the most part, the movement of the Dow and Beef prices correlate with each o
     
     - The 2nd iteration of the 2nd predictive model added more data (removed extraneous data (All Goods - CPi, and added monthly percentage change values to all of the food prices). According to our classification report, the 2nd iteration of the logistic regression model performed than the 1st iteration; the precision jumped to 0.72 and the recall/sensitivity slightly decreased to 0.85. The model is slightly more accurate at predicting a negative change than the 1st iteration, with the precision being 0.36 and the recall/sensitivity  being 0.21. The F1 Scores are 0.78 and 0.26, respectively.
 
--Price Correlations:
+- Price Correlations:
     ![Price_Corr.png](https://github.com/CTPim/Three_Meals/blob/Price-Correlation-Branch/Images/Price_Corr.png)
 
--Percentage Correlations:
+- Percentage Correlations:
     ![Percent_Corr.png](https://github.com/CTPim/Three_Meals/blob/Price-Correlation-Branch/Images/Percent_Corr.png)
 
 ## Process:
