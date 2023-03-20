@@ -150,6 +150,9 @@ For the most part, the movement of the Dow and Beef prices correlate with each o
 ### Presentation Outline:
 https://docs.google.com/document/d/1XdClzjiKHlGEJvBIJayIHBjT1X43zuwDLQjQoXXd4fo/edit?usp=sharing
 
+### Presentation Slides:
+https://docs.google.com/presentation/d/1f3WkZp4PsJtKOCAP-iXfFA9IDtVh3bWpm9aUNXICDFU/edit?usp=sharing
+
 ### Project Status/Tasks
 
 #### Project Status for 3/9 Deliverable (Written of 3/7):
