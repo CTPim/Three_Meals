@@ -223,4 +223,7 @@ https://docs.google.com/presentation/d/1f3WkZp4PsJtKOCAP-iXfFA9IDtVh3bWpm9aUNXIC
 
 ##### Would be cool to have:
 - K-means cluster visualization
+- Correlation table of food and DJIA prices.  Similar to dataframe above:
+    ![Price_Corr.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Price_Corr.png)
+    https://kb.tableau.com/articles/howto/creating-a-correlation-value-matrix
 
