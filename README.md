@@ -65,6 +65,7 @@ Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry ou
 ![beef_djia_comparison](Images/beef_djia_comparison1.png) 
 ![milk_djia_comp](Images/milk_djia_comparison.png)
 ![wheat_djia_comp](Images/wheat_djia_comparison.png)
+![foods_comp](Images/foods_comparison.png)
    
    Beef vs DJIA:
 There are observed correlations on 7-1-2000 displaying an upward movement.
