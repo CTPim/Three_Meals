@@ -23,7 +23,7 @@ On the financial side, our team used the DJIA dataset as our test variable.  We 
     -Interactive visualizations, Presentation slides
 - Google Docs/Slides:
     -Platform for team coordination
-    -Presentation slides
+    -Presentation slides 
 
 ## Raw Datasets & Applications:
 ### (Here is the dataset that was found, here is why it is revelant...)
