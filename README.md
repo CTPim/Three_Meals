@@ -230,4 +230,8 @@ https://docs.google.com/presentation/d/1f3WkZp4PsJtKOCAP-iXfFA9IDtVh3bWpm9aUNXIC
 - Correlation table of food and DJIA prices.  Similar to dataframe above:
     ![Price_Corr.png](https://github.com/CTPim/Three_Meals/blob/main/Images/Price_Corr.png)
     https://kb.tableau.com/articles/howto/creating-a-correlation-value-matrix
+    
+Tableau Dashboard & Story
+https://public.tableau.com/app/profile/maxine.jean.joseph/viz/ProjectAverageFoodPricesAnalysisPredicting/AnalyzingPredicting?publish=yes
 
+https://public.tableau.com/app/profile/maxine.jean.joseph/viz/ProjectAverageFoodPricesAnalysis/FoodPricesandTheDowJonesIndex
