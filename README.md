@@ -60,6 +60,8 @@ On the financial side, our team used the DJIA dataset as our test variable.  We 
 ## Analysis/Results
 Our team used Pandas, NumPy, and MatPlotLib as the primary libraries to carry out our analysis and ETL of the raw datasets.  To standardize the data so that it can be effectively cleaned, merged, and analyzed we agreed to only look at data from 1990 to present day, and rename columns to common names and add unit values ("DATE" to "date_time", USD/LB, etc...), and make sure that all data types were changed from object to float/int/etc...  Once the data was cleaned, it would be uploaded to our PostGres database, and visualizations were created.  Some of our latest visualizations are shown below.
 
+-Tableau Story Link: https://public.tableau.com/app/profile/maxine.jean.joseph/viz/ProjectAverageFoodPricesAnalysisPredicting/AnalyzingPredicting?publish=yes
+
 - Food Price vs DJIA Price Line Plots:
 
 ![beef_djia_comparison](Images/beef_djia_comparison1.png) 
