@@ -169,7 +169,7 @@ https://docs.google.com/presentation/d/1f3WkZp4PsJtKOCAP-iXfFA9IDtVh3bWpm9aUNXIC
 -  Questions and overview are above
 
 #### Project Status/Goals for 3/16 Deliverable (Written of 3/7):
-- Nobel prize winner roughly around time that the Berlin Wall came down tracking price of milk against economic performance - who is this?
+- Nobel prize winner roughly around time that the Berlin Wall came down tracking price of milk against economic performance - Mikhail Gorbachev.
 - All datasets cleaned (3/14)
 - Preliminary predictive model (3/16)
     - DJIA has column for % change.  Let's try to use a method of classification (categorical or logistic regression - unsupervised model) to group data by category for analysis.
