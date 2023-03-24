@@ -80,6 +80,8 @@ For the most part, the movement of the Dow and Beef prices correlate with each o
 Milk vs the DOW:
 THe movement of Milk prices loosely correlates with the DJIA between 7/95 and 1/2013. During this period the price of milk trended in the same direction as the DJIA. It moved inversely with to the DOW in 7/2015 and this trend of inverse movement between the two variables continued until 1/2018. 
 
+Wheat vs the DJIA:
+The price of wheat followed the a similar pattern as the DJIA from 7/95 to 1/2003 when it began to move inversely against the Dow. Wheat prices appear to experience the dip that the Dow experienced in 1/2008 during The Great Recession. It began to trend upward in mid2010 and appears to loosely mirror the Dow’s movement. 
 
 - Beef_USDA_Price Table:
     ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
