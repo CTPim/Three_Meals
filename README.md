@@ -77,6 +77,9 @@ From approx 1-1-2008 to 3-1-2013 they have trended in the same direction.
 There was an inverse correlation between these two veriables on approximately 6-1-2015. I will research to see what events might have caused this.
 For the most part, the movement of the Dow and Beef prices correlate with each other.
 
+Milk vs the DOW:
+THe movement of Milk prices loosely correlates with the DJIA between 7/95 and 1/2013. During this period the price of milk trended in the same direction as the DJIA. It moved inversely with to the DOW in 7/2015 and this trend of inverse movement between the two variables continued until 1/2018. 
+
 
 - Beef_USDA_Price Table:
     ![beef_usda.png](https://github.com/CTPim/Three_Meals/blob/main/Images/beef_usda.png)
